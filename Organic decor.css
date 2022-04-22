@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi ul{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(201, 102, 36, 0.568);
+    list-style: none;
+}
+
+.navlist a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    float:left;
+    padding: 10px 10px 30px 60px;
+}
+
+.navlist a:hover{
+    color:green;
+    height: fit-content;
+
+}
+
+
+#pog{
+    width: 900px;
+}
+
+
