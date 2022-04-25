@@ -144,3 +144,64 @@ h1{
 
 /* Why Organic Start */
 
+/*Practical start */
+
+/* Mental Health Start */
+.mental{
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.mental2{
+    display: block;
+    vertical-align: auto;
+    border: 1px green solid;
+    border-radius: 20px;
+    height: 100px;
+    width: 600px;
+    margin-top: 100px;
+    text-align: center;
+}
+/* Quote */
+#quote2{
+    display: block;
+    vertical-align: top;
+    border: 0px lightgreen solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 373px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+}
+
+/* Social media contact */
+.socialmedia{
+    border: 1px green solid;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 500px;
+}
+#insta{
+    display: inline-block;
+    vertical-align: auto;
+    height: 83px;
+    width: 91px;
+    border: 0px green solid;
+    border-radius: 50px;
+}
+
+#insta2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+#insta3{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -135px;
+    margin-bottom: 40px;
+}
+
+/* Literature start */
