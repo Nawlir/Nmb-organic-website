@@ -259,6 +259,7 @@ h1{
 .socialmedia{
     border: 1px lightgreen solid;
     border-radius: 10px;
+    text-decoration: none;
     width: 300px;
     margin-top: 500px;
 }
@@ -277,12 +278,29 @@ h1{
     margin-bottom: 100px;
     margin-left: 10px;
 }
+#insta2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
 
 #insta3{
     display: inline-block;
     vertical-align: middle;
-    margin-left: -135px;
+    margin-left: -145px;
     margin-bottom: 40px;
 }
+#insta3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
 
+#insta2 a:hover{
+    color: green;
+}
+
+#insta3 a:hover{
+    color: green;
+}
 /* Literature start */
