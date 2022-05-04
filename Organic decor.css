@@ -36,7 +36,7 @@
 
 /* header 1 */
 body{
-    background-color: lightgreen; 
+    background-color: white; 
 }
 .header{
     box-sizing: border-box;
@@ -153,30 +153,111 @@ h1{
 }
 
 .mental2{
-    display: block;
+    display: inline-block;
     vertical-align: auto;
-    border: 1px green solid;
+    box-sizing: border-box;
+    border: 1px lightgreen solid;
     border-radius: 20px;
     height: 100px;
     width: 600px;
+    margin-left: 360px;
     margin-top: 100px;
     text-align: center;
 }
-/* Quote */
-#quote2{
-    display: block;
-    vertical-align: top;
-    border: 0px lightgreen solid;
+/* Website information */
+.website{
+    box-sizing: border-box;
+    border: 1px lightgreen solid;
     border-radius: 10px;
-    height: 350px;
-    width: 373px;
-    margin-left: 700px;
-    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+#webinfo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+ #namiimage{
+     display: inline-block;
+     margin-top: 50px;
+     width: 200px;
+     height: 62px;
+ }
+
+#adlimage{
+    display: inline-block;
+    margin-top: 50px;
+    width: 200px;
+    height: 46px;
+}
+
+#sandyimage{
+    display: inline-block;
+    border: 0px green solid;
+    border-radius: 5%;
+    width: 220px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#mindfulimage{
+    display: inline-block;
+    border: 0px green solid;
+    border-radius: 5%;
+    width: 220px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.websitelist{
+    list-style: none;
+}
+.websitelist img{
+    float: left;
+    padding: 0px 45px 0px 0px;
+    margin-left: 60px;
+}
+
+.websitenames{
+    list-style: none;
+}
+.websitenames a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 0px 220px 0px 0px;
+}
+
+.websitenames a:hover{
+    color: green;
+    
+}
+#namltext{
+    display: block;
+    padding-left: 120px;
+}
+
+#adltext{
+    display: block;
+}
+
+#sandytext{
+    display: block;
+    padding-left: 45px;
+}
+
+#mindfultext{
+    display: block;
+    padding-left: 17px;
 }
 
 /* Social media contact */
 .socialmedia{
-    border: 1px green solid;
+    border: 1px lightgreen solid;
     border-radius: 10px;
     width: 300px;
     margin-top: 500px;
