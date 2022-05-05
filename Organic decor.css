@@ -255,6 +255,33 @@ h1{
     padding-left: 17px;
 }
 
+/* Support */
+.emotionalquotes{
+    box-sizing: border-box;
+    border: 1px lightgreen solid;
+    border-radius: 5px;
+    width: 303px;
+    text-align: center;
+    
+}
+
+#support{
+ width: px;
+ height: px;
+}
+#supporttext{
+    color: green;
+}
+
+#positivity{
+    width: 300px;
+    height: 500px;
+}
+
+#balance{
+    width: 400px;
+    height: 190px;
+}
 /* Social media contact */
 .socialmedia{
     border: 1px lightgreen solid;
