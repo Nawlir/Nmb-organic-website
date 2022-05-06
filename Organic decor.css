@@ -254,20 +254,27 @@ h1{
     display: block;
     padding-left: 17px;
 }
-
-/* Support */
+/* Mental Health Quote */
+#quote{
+    border: 0px lightgreen solid;
+    border-radius: 10px;
+    width: 310px;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: 60px;
+}
+/* Positivity, Support, and Balance */
 .emotionalquotes{
     box-sizing: border-box;
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     border-radius: 5px;
     width: 303px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 #support{
- width: px;
- height: px;
+    width: px;
+    height: px;
 }
 #supporttext{
     color: green;
@@ -277,10 +284,13 @@ h1{
     width: 300px;
     height: 500px;
 }
+#positivitytext{
+    color: rgb(128, 0, 75);
+}
 
 #balance{
-    width: 400px;
-    height: 190px;
+    width: 300px;
+    height: 130px;
 }
 /* Social media contact */
 .socialmedia{
