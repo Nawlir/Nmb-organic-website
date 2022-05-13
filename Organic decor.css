@@ -259,8 +259,9 @@ h1{
 
 /* Positivity, Support, and Balance */
 .emotionalquotes{
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     border-radius: 10px;
+    height: 250px;
 
 }
 
@@ -293,11 +294,16 @@ h1{
     border: 0px lightgreen solid;
     border-radius: 50%;
 }
-
+#positivitytext{
+    padding-left: 350px;
+}
 #balance{
     width: 300px;
     height: 130px;
     border: 0px lightgreen solid;
+}
+#balancetext{
+    padding-left: 350px;
 }
 
 .quotenames{
@@ -305,7 +311,9 @@ h1{
 }
 
 .quotenames li{
-    float:left;
+    float: left;
+    padding-left: 200px;
+    font-weight: bolder;
 }
 /* Social media contact */
 .socialmedia{
