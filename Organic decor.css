@@ -147,41 +147,49 @@ h1{
 }
 
 #active{
+    display:inline-block;
     border: 1px lightgreen solid;
     margin-top: 200px;
     width: 500px;
 }
 #active2{
+    display: inline-block;
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 #active3{
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 #active4{
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 #active5{
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 #active6{
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 #active7{
     border: 1px lightgreen solid;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 500px;
 }
 
+#greenhouse{
+    display:inline-block;
+    position: absolute;
+    margin-left: 700px;
+    margin-bottom: px
+}
 
 /* NMB Organic Growers done */
 
