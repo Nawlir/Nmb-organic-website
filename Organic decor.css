@@ -146,7 +146,8 @@ h1{
     font-weight: lighter;
 }
 .classactivities{
-    border: 1px green solid;
+    background-color: lightgreen;
+    border: 0px green solid;
     display:flex;
     flex-basis: 500px;
     width: 100%;
@@ -164,7 +165,7 @@ h1{
 
 .classactivities li{
     flex: 1;
-    border: 1px lightgreen solid;
+    border: 3px green solid;
 }
 
 .videos{
