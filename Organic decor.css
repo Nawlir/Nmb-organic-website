@@ -1,34 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Poppins', sans-serif
+    font-family: Roboto Slab;
 }
 
-.navi ul{
+.navi{
+    display:flex;
     width: 100%;
-    height: 50px;
-    background-color:rgb(62, 163, 62);
+    height: 90px;
+    background-color:rgb(124, 209, 124);
     list-style: none;
     box-shadow: 5px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+
 }
 
-.navlist a{
-    font-family: 'Poppins', sans-serif;
+.navi li {
     font-weight: bold;
     font-size: 17px;
     color: whitesmoke;
     text-decoration: none;
-    float:left;
-    padding: 10px 5px 10px 0px;
-    margin-left: 77px;
+
 }
 
-.navlist a:hover{
-    color:green;
+.navi li a{
+    color: green;
+    text-decoration: none;
+}
+
+.navi li a:hover{
+    color:whitesmoke;
     height: fit-content;
     animation-name: underline;
     animation-duration: 2000s;
     animation-fill-mode: forwards;
+}
+
+#logo{
+    padding-right: 500px;
+    width: 211px;
+    height: 148px;
+}
+
+@media(max-width: 600px){
+    #logo{
+        padding: 0px;
+    }
 }
 /* Navlist end */
 
