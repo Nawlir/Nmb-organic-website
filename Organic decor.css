@@ -55,111 +55,15 @@
 /* Navlist end */
 
 /*Body start */
-
-/* header 1 */
 body{
     background-color: white; 
 }
-.header{
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 5px;;
-    background-color: rgba(165, 136, 42, 0.445);
-    width: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-left: 500px;
-}
-.header p{
-    font-size: 20px; 
-}
+/* Start of Picture grid */
 
-/* Header 2*/
- .header2{
-     display:inline-block;
-     padding-right: 10px;
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 5px;;
-    background-color: rgba(165, 136, 42, 0.445);
-    width: 250px;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: 200px
-}
-
-h1{
-    color:rgb(62, 163, 62);
-    letter-spacing: 0.5px;
-    text-align: center;
-}
-
-.imagesbox{
-    
-    display: inline-block;
-    padding-left: 10px;
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 20px;
-    height: 300px;
-    width: 500px;
-    margin-left: 100px;
-    margin-bottom: 300px;
-    margin-top: 100px;
-    position: absolute;
-}
-/* header 3 */
-.header3{
- display: inline-block;
- text-align: center;
- box-sizing: border-box;
- border: 0px lightgreen solid;
- border-radius: 5px;
- background-color: rgba(165, 136, 42, 0.445);
- width: 250px;
- margin-top: 400px;
- margin-left: 800px;
- padding-top: 15px;
-}
-
-.imagesbox2{
-    display: inline-block;
-    border: 0px lightgreen solid;
-    border-radius: 20px;
-    height: 500px;
-    width: 400px;
-    margin-top: 200px;
-    margin-bottom: 10px;
-    margin-left: -860px;
-    position: absolute;
-}
-
-/* Header 4 */
-
-.header4{
-    display: inline-block;
-    text-align: center;
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 5px;
-    background-color: rgba(165, 136, 42, 0.445);
-    width: 250px;
-    padding: 10px 0px 10px 0px;
-    margin-top: 500px;
-    margin-left: 200px;
-}
-
-.imagesbox3{
-    display: inline-block;
-    border: 0px lightgreen solid;
-    border-radius: 20px;
-    height: 450px;
-    width: 500px;
-    margin-top: 300px;
-    margin-left: 150px;
-    position: absolute;
+.testgrid{
+    border: 1px lightgreen solid;
+    display: grid;
+    gap: 5rem;
 }
 
 #growers{
@@ -168,7 +72,7 @@ h1{
     font-weight: lighter;
 }
 .classactivities{
-    background-color: lightgreen;
+    background-color: rgb(171, 236, 171);
     border: 0px green solid;
     display:flex;
     flex-basis: 500px;
@@ -179,7 +83,7 @@ h1{
     align-items: flex-start;
 }
 
-@media (min-width: 300px){
+@media (max-width: 300px){
     .classactivities{
         flex-direction: row;
     }
@@ -187,17 +91,28 @@ h1{
 
 .classactivities li{
     flex: 1;
-    border: 3px green solid;
+    border-left: 3px green solid;
 }
 
 .videos{
     display: flex;
+    gap: 25rem;
+    flex: 1;
 }
-#greenhouse{
-    display:inline-block;
-    position: absolute;
-    margin-left: 780px;
-    margin-bottom: px
+
+@media(max-width: 1000px){
+    .videos{
+        display:flex;
+        gap: 10rem;
+        flex: 1; 
+    }
+}
+
+@media(max-width: 300px){
+    .videos{
+        display: flex;
+        gap: 2rem;
+    }
 }
 
 /* NMB Organic Growers done */
@@ -208,7 +123,7 @@ h1{
 
 /* Mental Health Start */
 .mental{
-    margin-top: 10px;
+    margin-top: 50px;
     font-size: 50px;
 }
 
@@ -216,19 +131,23 @@ h1{
     display: inline-block;
     vertical-align: auto;
     box-sizing: border-box;
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     border-radius: 20px;
-    height: 100px;
+    height: 125px;
     width: 600px;
     margin-left: 360px;
     margin-top: 100px;
     text-align: center;
 }
+
+.mental2 p{
+    font-size:small;
+}
 /* Website information */
 .website{
     box-sizing: border-box;
-    border: 1px lightgreen solid;
-    border-radius: 10px;
+    border: 0px lightgreen solid;
+    border-top: 1px lightgreen solid;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -236,7 +155,6 @@ h1{
 }
 
 #webinfo{
-    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }
 
@@ -285,7 +203,6 @@ h1{
     list-style: none;
 }
 .websitenames a{
-    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     float: left;
     text-decoration: none;
@@ -348,6 +265,18 @@ h1{
     
 }
 
+#supporttext{
+    border: 0px lightgreen solid;
+    width: 100px;
+    font-weight:bold;
+}
+
+#supporttext p{
+    font-weight: lighter;
+    font-size: small;
+    color: grey;
+}
+
 #positivity{
     width: 300px;
     height: 225px;
@@ -356,7 +285,18 @@ h1{
 }
 #positivitytext{
     padding-left: 350px;
+    font-weight: bold;
+    border: 0px lightgreen solid;
+    width: 100px;
 }
+
+#positivitytext p{
+    font-weight: lighter;
+    font-size: small;
+    color: grey;
+}
+
+
 #balance{
     width: 300px;
     height: 130px;
@@ -364,6 +304,15 @@ h1{
 }
 #balancetext{
     padding-left: 350px;
+    font-weight: bold;
+    border: 0px lightgreen solid;
+    width: 100px;
+}
+
+#balancetext p{
+    font-weight: lighter;
+    font-size: small;
+    color: grey;
 }
 
 .quotenames{
@@ -373,11 +322,10 @@ h1{
 .quotenames li{
     float: left;
     padding-left: 200px;
-    font-weight: bolder;
 }
 /* Social media contact */
 .socialmedia{
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     border-radius: 10px;
     text-decoration: none;
     width: 300px;
