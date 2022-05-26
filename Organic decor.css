@@ -23,18 +23,17 @@
 .navi li {
     font-weight: bold;
     font-size: 17px;
-    color: whitesmoke;
     text-decoration: none;
 
 }
 
 .navi li a{
-    color: green;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .navi li a:hover{
-    color:whitesmoke;
+    color:green;
     height: fit-content;
     animation-name: underline;
     animation-duration: 2000s;
