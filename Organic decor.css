@@ -159,21 +159,18 @@ body{
 }
 
  #namiimage{
-     display: inline-block;
      margin-top: 50px;
      width: 200px;
      height: 62px;
  }
 
 #adlimage{
-    display: inline-block;
     margin-top: 50px;
     width: 200px;
     height: 46px;
 }
 
 #sandyimage{
-    display: inline-block;
     border: 0px green solid;
     border-radius: 5%;
     width: 220px;
@@ -182,56 +179,41 @@ body{
 }
 
 #mindfulimage{
-    display: inline-block;
     border: 0px green solid;
     border-radius: 5%;
     width: 220px;
     height: 120px;
-    margin-top: 20px;
+    
 }
 
 .websitelist{
+    display: flex;
+    gap: 5rem;
     list-style: none;
+    justify-content: center;
 }
-.websitelist img{
-    float: left;
-    padding: 0px 45px 0px 0px;
-    margin-left: 60px;
+.websitelist li img{
+    flex: 1;
 }
 
 .websitenames{
+    display: flex;
     list-style: none;
+    gap: 15rem;
+    justify-content: center;
 }
 .websitenames a{
+    flex: 1;
     font-weight: bolder;
-    float: left;
     text-decoration: none;
     color: black;
-    padding: 0px 220px 0px 0px;
 }
 
 .websitenames a:hover{
     color: green;
     
 }
-#namltext{
-    display: block;
-    padding-left: 120px;
-}
 
-#adltext{
-    display: block;
-}
-
-#sandytext{
-    display: block;
-    padding-left: 45px;
-}
-
-#mindfultext{
-    display: block;
-    padding-left: 17px;
-}
 /* Mental Health Quote */
 
 /* Positivity, Support, and Balance */
@@ -243,16 +225,29 @@ body{
 }
 
 .quotelist{
+    display: flex;
+    gap: 9rem;
     list-style: none;
     
 }
 
 .quotelist img{
-    float:left;
-    padding-right: 100px;
+
     margin-top: 10px;
 }
 
+.quotenames{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .quotenames li{
+        flex-direction: row;
+    }
+}
 
 
 #support{
@@ -266,14 +261,16 @@ body{
 }
 
 #supporttext{
+    font-size: large;
     border: 0px lightgreen solid;
     width: 100px;
     font-weight:bold;
 }
 
+
 #supporttext p{
     font-weight: lighter;
-    font-size: small;
+    font-size:medium;
     color: grey;
 }
 
@@ -284,6 +281,7 @@ body{
     border-radius: 50%;
 }
 #positivitytext{
+    font-size: large;
     padding-left: 350px;
     font-weight: bold;
     border: 0px lightgreen solid;
@@ -292,7 +290,7 @@ body{
 
 #positivitytext p{
     font-weight: lighter;
-    font-size: small;
+    font-size: medium;
     color: grey;
 }
 
@@ -303,6 +301,7 @@ body{
     border: 0px lightgreen solid;
 }
 #balancetext{
+    font-size: large;
     padding-left: 350px;
     font-weight: bold;
     border: 0px lightgreen solid;
@@ -311,18 +310,11 @@ body{
 
 #balancetext p{
     font-weight: lighter;
-    font-size: small;
+    font-size: medium;
     color: grey;
 }
 
-.quotenames{
-    list-style: none;
-}
 
-.quotenames li{
-    float: left;
-    padding-left: 200px;
-}
 /* Social media contact */
 .socialmedia{
     border: 0px lightgreen solid;
