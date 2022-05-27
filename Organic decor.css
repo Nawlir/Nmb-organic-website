@@ -60,7 +60,7 @@ body{
 /* Start of Picture grid */
 
 .testgrid{
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     display: grid;
     gap: 5rem;
 }
@@ -94,29 +94,15 @@ body{
 }
 
 .videos{
-    display: flex;
-    gap: 25rem;
-    flex: 1;
-}
-
-@media(max-width: 1000px){
-    .videos{
-        display:flex;
-        gap: 10rem;
-        flex: 1; 
-    }
-}
-
-@media(max-width: 300px){
-    .videos{
-        display: flex;
-        gap: 2rem;
-    }
+    display: grid;
+    border: 0px lightgreen solid;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
 }
 
 /* NMB Organic Growers done */
 
-/* Why Organic Start */
 
 /*Practical start */
 
@@ -363,3 +349,11 @@ body{
     color: green;
 }
 /* Literature start */
+
+.litreview{
+    display: flex;
+    border: 1px lightgreen solid;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+}
