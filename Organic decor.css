@@ -113,6 +113,11 @@ body{
     justify-content: center;
 }
 
+#group{
+    border: 0px lightgreen solid;
+    border-radius: 5px;
+}
+
 
 
 .videos{
@@ -159,9 +164,103 @@ body{
     font-size:medium;
 }
 
-#mentalimg{
+/* Positivity, Support, and Balance */
+.emotionalimages{
+    border: 0px lightgreen solid;
+    border-radius: 10px;
+    height: 250px;
 
 }
+
+.quotelist{
+    display: flex;
+    gap: 9rem;
+    list-style: none;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.quotelist img{
+    margin-top: 10px;
+}
+
+.quotenames{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .quotenames li{
+        flex-direction: row;
+    }
+}
+
+
+#support{
+    box-sizing: border-box;
+    border: 0px lightgreen solid;
+    border-radius: 50%;
+    
+    
+}
+
+#supporttext{
+    font-size: large;
+    border: 0px lightgreen solid;
+    width: 100px;
+    font-weight:bold;
+}
+
+
+#supporttext p{
+    font-weight: lighter;
+    font-size:medium;
+    color: grey;
+}
+
+#positivity{
+    width: 300px;
+    height: 225px;
+    border: 0px lightgreen solid;
+    border-radius: 50%;
+}
+#positivitytext{
+    font-size: large;
+    padding-left: 350px;
+    font-weight: bold;
+    border: 0px lightgreen solid;
+    width: 100px;
+}
+
+#positivitytext p{
+    font-weight: lighter;
+    font-size: medium;
+    color: grey;
+}
+
+
+#balance{
+    width: 300px;
+    height: 130px;
+    border: 0px lightgreen solid;
+}
+#balancetext{
+    font-size: large;
+    padding-left: 350px;
+    font-weight: bold;
+    border: 0px lightgreen solid;
+    width: 100px;
+}
+
+#balancetext p{
+    font-weight: lighter;
+    font-size: medium;
+    color: grey;
+}
+
 /* Website information */
 .website{
     box-sizing: border-box;
@@ -235,102 +334,6 @@ body{
 
 /* Mental Health Quote */
 
-/* Positivity, Support, and Balance */
-.emotionalimages{
-    border: 0px lightgreen solid;
-    border-radius: 10px;
-    height: 250px;
-
-}
-
-.quotelist{
-    display: flex;
-    gap: 9rem;
-    list-style: none;
-    
-}
-
-.quotelist img{
-    margin-top: 10px;
-}
-
-.quotenames{
-    display: flex;
-    list-style: none;
-    gap: 3rem;
-    justify-content: center;
-}
-
-@media (max-width: 600px){
-    .quotenames li{
-        flex-direction: row;
-    }
-}
-
-
-#support{
-    width: px;
-    height: px;
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 50%;
-    margin-left: 70px;
-    
-}
-
-#supporttext{
-    font-size: large;
-    border: 0px lightgreen solid;
-    width: 100px;
-    font-weight:bold;
-}
-
-
-#supporttext p{
-    font-weight: lighter;
-    font-size:medium;
-    color: grey;
-}
-
-#positivity{
-    width: 300px;
-    height: 225px;
-    border: 0px lightgreen solid;
-    border-radius: 50%;
-}
-#positivitytext{
-    font-size: large;
-    padding-left: 350px;
-    font-weight: bold;
-    border: 0px lightgreen solid;
-    width: 100px;
-}
-
-#positivitytext p{
-    font-weight: lighter;
-    font-size: medium;
-    color: grey;
-}
-
-
-#balance{
-    width: 300px;
-    height: 130px;
-    border: 0px lightgreen solid;
-}
-#balancetext{
-    font-size: large;
-    padding-left: 350px;
-    font-weight: bold;
-    border: 0px lightgreen solid;
-    width: 100px;
-}
-
-#balancetext p{
-    font-weight: lighter;
-    font-size: medium;
-    color: grey;
-}
 
 
 /* Social media contact */
