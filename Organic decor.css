@@ -388,7 +388,7 @@ body{
 
 .litreview{
     display: flex;
-    border: 1px lightgreen solid;
+    border: 0px lightgreen solid;
     width: 100%;
     flex-direction: column;
     flex: 1;
