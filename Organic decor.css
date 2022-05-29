@@ -60,44 +60,65 @@ body{
 /* Start of Picture grid */
 
 .testgrid{
-    border: 0px lightgreen solid;
     display: grid;
-    gap: 5rem;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 241px);
+    justify-content: center;
 }
 
+@media(max-width: 350px){
+    .testgrid{
+        display: grid;
+        gap: 0.5;
+        grid-template-columns: 241px;
+    }
+}
+
+@media(max-width: 40rem){
+    .testgrid{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 241px);
+    }
+}
+
+@media(min-width: 100rem){
+    .testgrid{
+     display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(7, 241px);
+    }
+}
+.testgrid p{
+    border: 1px lightgreen solid;
+    background-color: lightgreen;
+}
+
+.grid-col-span2{
+    grid-column: span 2;
+}
+
+.active5{
+    grid-column: span 2;
+}
 #growers{
     margin-top: 100px;
     float: right;
     font-weight: lighter;
 }
-.classactivities{
-    background-color: rgb(171, 236, 171);
-    border: 0px green solid;
+
+.students{
+    border: 1px lightgreen solid;
     display:flex;
-    flex-basis: 500px;
-    width: 100%;
-    list-style: none;
-    gap: 1rem;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-@media (max-width: 300px){
-    .classactivities{
-        flex-direction: row;
-    }
-}
 
-.classactivities li{
-    flex: 1;
-    border-left: 3px green solid;
-}
 
 .videos{
     display: grid;
     border: 0px lightgreen solid;
     justify-content: center;
-    list-style: none;
+    list-style:none;
     gap: 3rem;
 }
 
