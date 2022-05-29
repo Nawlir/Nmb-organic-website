@@ -108,8 +108,9 @@ body{
 }
 
 .students{
-    border: 1px lightgreen solid;
-    display:flex;
+    border: 0px lightgreen solid;
+    display:grid;
+    justify-content: center;
 }
 
 
@@ -127,6 +128,14 @@ body{
 
 /*Practical start */
 
+.videos{
+    display: grid;
+    border: 0px lightgreen solid;
+    justify-content: center;
+    list-style:none;
+    gap: 3rem;
+}
+
 /* Mental Health Start */
 .mental{
     margin-top: 50px;
@@ -134,20 +143,24 @@ body{
 }
 
 .mental2{
-    display: inline-block;
-    vertical-align: auto;
-    box-sizing: border-box;
-    border: 0px lightgreen solid;
-    border-radius: 20px;
-    height: 125px;
-    width: 600px;
-    margin-left: 360px;
-    margin-top: 100px;
-    text-align: center;
+   display: grid;
+   border: 0px lightgreen solid;
+   list-style: none;
+   justify-content: center;
+   grid-template-columns: 400px 400px;
 }
 
+#mental{
+    border: 1px lightgreen solid;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
 .mental2 p{
-    font-size:small;
+    font-size:medium;
+}
+
+#mentalimg{
+
 }
 /* Website information */
 .website{
@@ -223,7 +236,7 @@ body{
 /* Mental Health Quote */
 
 /* Positivity, Support, and Balance */
-.emotionalquotes{
+.emotionalimages{
     border: 0px lightgreen solid;
     border-radius: 10px;
     height: 250px;
@@ -238,7 +251,6 @@ body{
 }
 
 .quotelist img{
-
     margin-top: 10px;
 }
 
