@@ -82,13 +82,6 @@ body{
     }
 }
 
-@media(min-width: 100rem){
-    .testgrid{
-     display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(7, 241px);
-    }
-}
 .testgrid p{
     border: 1px lightgreen solid;
     background-color: lightgreen;
@@ -161,7 +154,7 @@ body{
     background-color: lightgreen;
 }
 .mental2 p{
-    font-size:medium;
+    font-size: larger;
 }
 
 /* Positivity, Support, and Balance */
@@ -217,7 +210,7 @@ body{
 
 #supporttext p{
     font-weight: lighter;
-    font-size:medium;
+    font-size:larger;
     color: grey;
 }
 
@@ -237,7 +230,7 @@ body{
 
 #positivitytext p{
     font-weight: lighter;
-    font-size: medium;
+    font-size: larger;
     color: grey;
 }
 
@@ -257,7 +250,7 @@ body{
 
 #balancetext p{
     font-weight: lighter;
-    font-size: medium;
+    font-size: larger;
     color: grey;
 }
 
@@ -323,6 +316,7 @@ body{
 .websitenames a{
     flex: 1;
     font-weight: bolder;
+    font-size: x-large;
     text-decoration: none;
     color: black;
 }
@@ -360,6 +354,7 @@ body{
     margin-left: 10px;
 }
 #insta2 a{
+    font-size: larger;
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -368,10 +363,11 @@ body{
 #insta3{
     display: inline-block;
     vertical-align: middle;
-    margin-left: -145px;
-    margin-bottom: 40px;
+    margin-left: 105px;
+    margin-bottom: 30px;
 }
 #insta3 a{
+    font-size: larger;
     text-decoration: none;
     color: black;
     font-weight: bolder;
