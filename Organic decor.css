@@ -205,6 +205,7 @@ body{
     border: 0px lightgreen solid;
     width: 100px;
     font-weight:bold;
+    color: red;
 }
 
 
@@ -226,6 +227,7 @@ body{
     font-weight: bold;
     border: 0px lightgreen solid;
     width: 100px;
+    color:blueviolet;
 }
 
 #positivitytext p{
@@ -246,6 +248,7 @@ body{
     font-weight: bold;
     border: 0px lightgreen solid;
     width: 100px;
+    color: blue;
 }
 
 #balancetext p{
